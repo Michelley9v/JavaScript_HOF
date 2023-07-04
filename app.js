@@ -72,6 +72,8 @@ else return -1;
 
 console.log(users);
 
+//Exercise 6 reduce
 
-
-
+let avgScore = users.reduce((sum, user) => sum + user.score, 0) / users.length;
+ 
+console.log(avgScore);
